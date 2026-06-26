@@ -1,0 +1,20 @@
+HuanBot/
+├── core/                  # 核心模块
+│   ├── config.py          # 配置管理
+│   ├── logger.py          # 日志系统
+│   └── api_manager.py     # API管理器
+├── modules/               # 功能模块
+│   ├── llm/               # LLM交互
+│   │   └── llm_client.py
+│   ├── memory/            # 记忆系统
+│   │   └── vector_memory.py
+│   └── tools/             # 工具函数
+│       ├── emergency_call.py
+│       ├── emoji_manager.py
+│       ├── image_handler.py
+│       └── user_manager.py
+├── handlers/              # 处理器
+│   ├── message_handler.py # 消息处理器
+│   └── action_executor.py # 动作执行器
+├── utils/                 # 工具函数
+└── main.py                # 主程序入口
